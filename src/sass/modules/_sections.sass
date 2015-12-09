@@ -1,0 +1,118 @@
+.section-heading
+  margin-top: 3rem
+  margin-bottom: 0
+  text-align: center
+
+.section-subtitle
+  color: $--primary
+  margin-bottom: 3rem
+  text-align: center
+
+.about
+  margin-bottom: 3rem
+  &-icon
+    max-width: 75px
+    margin-bottom: 2rem
+
+.event-box
+  border: solid 1px $--primary
+  padding: rem-calc(6px) 1.5rem
+  display: inline-block
+  margin-left: auto
+  margin-top: 1.5rem
+  text-align: left
+
+  &-heading
+    color: $--primary
+    font-weight: 700
+
+  p
+    margin: 0
+
+.speakers
+  margin-bottom: 3rem
+  padding-top: 3rem
+
+  .section-heading
+    margin-top: 0
+
+
+  &-icon
+    max-width: 7px
+
+.speakers-profile-image
+  position: relative
+  padding-left: 16px
+  padding-bottom: 16px
+  display: block
+  position: relative
+
+.speakers-profile-image-box
+  position: relative
+  &::before, &::after
+    content: ""
+    position: absolute
+    display: block
+    bottom: 0
+    left: 0
+    width: 50px
+    height: 1px
+    background-color: $--text-sub
+    z-index: 99999
+  &::after
+    width: 1px
+    height: 50px
+
+.speaker-subhead
+  color: $--text-sub
+  margin-bottom: 2rem
+
+.schedule
+  padding: 1px 0
+  padding-bottom: 3rem
+  background-color: $--primary
+  color: $--white
+
+  hr
+    margin: 5px auto
+
+  .paragraph-title
+    margin-bottom: 3rem
+
+  &-date
+    display: inline-block
+    width: rem-calc(80px)
+
+
+.venue
+
+  &-details
+    background-color: #fff
+    z-index: 10
+    position: relative
+
+    p
+      padding: 1rem 0
+
+  &-image
+    +bg-image('bg_47-east.jpg')
+    background-position: center
+    background-size: cover
+    height: 300px
+
+  &-map
+    height: 400px
+    background-color: $--text-sub
+
+
+.cta
+  transform: translateY(-150px)
+  z-index: 0
+  padding-top: rem-calc(198px)
+  padding-bottom: 3rem
+  background-color: $--primary
+  color: #fff
+
+.cta-mid
+  padding: 3rem 0
+  background-color: $bg-grey

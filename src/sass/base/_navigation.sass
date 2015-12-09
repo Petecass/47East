@@ -1,0 +1,63 @@
+.navbar
+  display: flex
+  align-items: center
+  width: 100%
+  padding: 1rem 5%
+
+  &-brand
+    margin-top: 0
+    margin-bottom: 0
+    margin-right: auto
+
+  &-links
+    margin: 0
+    padding: 0
+    li
+      display: inline-block
+      list-style: none
+      vertical-align: middle
+      text-transform: uppercase
+      font-size: 0.8rem
+      a
+        vertical-align: middle
+      margin-right: 40px
+      &:last-of-type
+        margin-right: 0
+
+  .button
+    margin: 0
+
+#nav-toggle
+  position: relative
+  width: 40px
+  height: 40px
+
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after
+  cursor: pointer
+  border-radius: 1px
+  height: 3px
+  width: 35px
+  background: #fff
+  position: absolute
+  display: block
+  content: ''
+  left: 0
+
+#nav-toggle span:before
+  top: -10px
+
+#nav-toggle span:after
+  bottom: -10px
+
+.off-canvas
+  height: 100%
+  text-align: center
+  background-color: $bg-footer
+  color: #fff
+  position: fixed
+
+  &-nav-links
+    list-style: none
+    li
+      margin-bottom: 1rem
+      text-transform: uppercase

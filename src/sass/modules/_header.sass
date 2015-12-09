@@ -1,0 +1,35 @@
+.header
+  +bg-image('bg_header.jpg')
+  height: rem-calc(500px)
+  +breakpoint(medium)
+    height: rem-calc(700px)
+  position: relative
+  background-size: cover
+  color: $--white
+
+  & a
+    color: inherit
+
+  .text-winged
+    margin-top: 3rem
+    +breakpoint(medium)
+      margin-top: 6rem
+
+  &-heading
+    margin: 0 auto
+    max-width: 40rem
+
+  &-subheading
+    margin-top: 0
+    margin-bottom: 0
+    font-weight: 700
+    +breakpoint(medium)
+      font-size: 2rem
+
+.header-bottom-content
+  position: absolute
+  bottom: 1rem
+  +breakpoint(medium)
+    bottom: 4rem
+  left: 0
+  width: 100%

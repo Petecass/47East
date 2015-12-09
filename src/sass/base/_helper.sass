@@ -1,0 +1,74 @@
+hr
+  width: 90%
+  max-width: rem-calc(700px)
+
+a
+  color: inherit
+
+.hr-padded
+  margin: 3rem auto
+
+.button
+  border-radius: 16px
+  padding-left: 2rem !important
+  padding-right: 2rem !important
+  display: inline-block
+
+.button-outline
+  background-color: transparent
+  color: $--primary
+  border: solid 1px $--primary
+  text-transform: uppercase
+
+.button-outline--white
+  background-color: transparent
+  color: #fff
+  border: solid 1px #fff
+  text-transform: uppercase
+
+  &:hover
+    background-color: #fff
+    color: $--primary
+
+.button-cta
+  width: 15rem
+
+.paragraph
+  max-width: 35rem
+  margin-left: auto
+  margin-right: auto
+
+  &-title
+    font-size: 1.2rem
+
+.logo-main
+  +text-replace('logo-main.png',185px, 55px)
+  display: inline-block
+
+.text-winged
+  font-size: 1.5rem
+  text-transform: uppercase
+  position: relative
+  width: auto
+  display: inline-block
+  margin-left: auto
+  margin-right: auto
+  &::after
+    content: ""
+    position: absolute
+    left: - 5rem
+    bottom: rem-calc(20px)
+    width: 4rem
+    height: 1px
+    background-color: transparentize(#fff, 0.7)
+  &::before
+    content: ""
+    position: absolute
+    right: - 5rem
+    bottom: rem-calc(20px)
+    width: 4rem
+    height: 1px
+    background-color: transparentize(#fff, 0.7)
+
+.text-primary
+  color: $--primary

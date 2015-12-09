@@ -1,0 +1,49 @@
+{
+  "name": "47-east",
+  "version": "1.0.0",
+  "description": "Landing Page",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/petecass/flint.git"
+  },
+  "main": "index.js",
+  "devDependencies": {
+    "browser-sync": "^2.10.0",
+    "del": "^2.1.0",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-bower": "0.0.11",
+    "gulp-concat": "^2.6.0",
+    "gulp-csso": "1.0.1",
+    "gulp-deploy-git": "^0.5.2",
+    "gulp-filter": "3.0.1",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-if": "^2.0.0",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-inject": "^3.0.0",
+    "gulp-load-plugins": "1.0.0",
+    "gulp-main-bower-files": "^1.2.5",
+    "gulp-minify-css": "^1.2.2",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "1.0.1",
+    "gulp-sass": "^2.1.0",
+    "gulp-series": "^1.0.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-template": "^3.1.0",
+    "gulp-uglify": "^1.5.1",
+    "gulp-useref": "^3.0.3",
+    "gulp-watch": "^4.3.5",
+    "imagemin-pngquant": "^4.2.0",
+    "main-bower-files": "^2.9.0",
+    "require-dir": "^0.3.0",
+    "run-sequence": "1.1.5",
+    "stream-series": "^0.1.1",
+    "uglify": "^0.1.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pete Cass",
+  "license": "ISC",
+  "dependencies": {}
+}
