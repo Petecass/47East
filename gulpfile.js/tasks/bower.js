@@ -17,6 +17,8 @@ gulp.task('move-components', function(){
 gulp.task('deploy', function() {
   return gulp.src('dist/**/*')
     .pipe(deploy({
-      repository: 'https://github.com/zhevron/gulp-deploy-git.git'
+      repository: 'https://github.com/Petecass/47East.git',
+      branches: ['gh-pages']
+
     }));
 });
