@@ -1,5 +1,5 @@
 var        gulp = require('gulp'),
-deploy = require('gulp-deploy-git'),
+ghPages = require('gulp-gh-pages'),
               $ = require('../gulpconfig').bower;
 
 
@@ -15,10 +15,7 @@ gulp.task('move-components', function(){
 
 
 gulp.task('deploy', function() {
-  return gulp.src('dist/**/*')
-    .pipe(deploy({
-      repository: 'https://github.com/Petecass/47East.git',
-      branches: ['gh-pages']
+  return gulp.src('./dist/**/*')
+    .pipe(ghPages());
 
-    }));
 });
