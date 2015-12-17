@@ -1,7 +1,8 @@
 .section-heading
   margin-top: 3rem
-  margin-bottom: 0
+  margin-bottom: 0.5rem
   text-align: center
+
 
 .section-subtitle
   color: $--primary
@@ -23,6 +24,7 @@
   text-align: left
 
   &-heading
+    font-size: 0.8rem
     color: $--primary
     font-weight: 700
 
@@ -68,15 +70,15 @@
   margin-bottom: 2rem
 
 .schedule
-  padding: 1px 0
-  padding-bottom: 3rem
+  padding: 4rem 0 6rem
   background-color: $--primary
   color: $--white
 
   hr
-    margin: 5px auto
+    margin: 1.5rem auto
 
   .paragraph-title
+    font-size: 1.8rem
     margin-bottom: 3rem
 
   &-date
@@ -102,14 +104,18 @@
 
   &-map
     height: 400px
+    position: relative
     background-color: $--text-sub
+
+  &-map iframe
+    pointer-events: none
 
 
 .cta
   transform: translateY(-150px)
   z-index: 0
   padding-top: rem-calc(198px)
-  padding-bottom: 3rem
+  padding-bottom: 6rem
   background-color: $--primary
   color: #fff
 

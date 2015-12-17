@@ -16,4 +16,8 @@ $(document).ready(function(){
       event.preventDefault();
   });
 
+  $('.venue-map').click(function () {
+    $('.venue-map iframe').css("pointer-events", "auto");
+  });
+
 });

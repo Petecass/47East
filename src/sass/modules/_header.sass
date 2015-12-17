@@ -1,8 +1,13 @@
 .header
   +bg-image('bg_header.jpg')
   height: rem-calc(500px)
+  
   +breakpoint(medium)
     height: rem-calc(700px)
+  +breakpoint(large)
+    background-attachment: fixed
+    background-position: center
+    height: rem-calc(800px)
   position: relative
   background-size: cover
   color: $--white
