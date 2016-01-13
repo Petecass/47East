@@ -6,6 +6,7 @@ node_modules/
 bower_components/
 dist/
 build/
+.publish
 
 # Icon must end with two \r
 Icon
